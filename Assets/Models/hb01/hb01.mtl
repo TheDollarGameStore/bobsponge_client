@@ -1,0 +1,945 @@
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sm_peak.png
+Ni 1.00
+newmtl mat_surface_chum2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd surface_chum2.png
+Ni 1.00
+newmtl mesh_Grass_clumpSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd grass_clump.png
+Ni 1.00
+newmtl mesh_RB_ground_aquaSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd RB_ground_aqua.png
+Ni 1.00
+newmtl mesh_TreeOrangeTubeTopSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd TreeOrangeTubeTop.png
+Ni 1.00
+newmtl mesh_Tv_shadshoalsSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd Tv_shadshoals.png
+Ni 1.00
+newmtl mesh_airlockSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd airlock.png
+Ni 1.00
+newmtl mesh_bamboo_endsSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd bamboo_ends.png
+Ni 1.00
+newmtl mesh_bamboo_furnitureSG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd bamboo_furniture.png
+Ni 1.00
+newmtl mesh_bamboo_swingSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd bamboo_swing.png
+Ni 1.00
+newmtl mesh_bb_lodtextureSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd bb_lodtexture.png
+Ni 1.00
+newmtl mesh_bb_lodtexture_02SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd bb_lodtexture_02.png
+Ni 1.00
+newmtl mesh_beach_chairSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd beach_chair.png
+Ni 1.00
+newmtl mesh_blanketSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd blanket.png
+Ni 1.00
+newmtl mesh_bowl_floorSG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd bowl_floor.png
+Ni 1.00
+newmtl mesh_building_aSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd building_a.png
+Ni 1.00
+newmtl mesh_building_aquaSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd building_aqua.png
+Ni 1.00
+newmtl mesh_building_bSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd building_b.png
+Ni 1.00
+newmtl mesh_building_blue2SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd building_blue2.png
+Ni 1.00
+newmtl mesh_building_blue3SG3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd building_blue3.png
+Ni 1.00
+newmtl mesh_building_blue5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd building_blue5.png
+Ni 1.00
+newmtl mesh_building_cSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd building_c.png
+Ni 1.00
+newmtl mesh_building_grey3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd building_grey3.png
+Ni 1.00
+newmtl mesh_building_rustSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd building_rust.png
+Ni 1.00
+newmtl mesh_building_wood_krusty2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd building_wood_krusty2.png
+Ni 1.00
+newmtl mesh_building_wood_krustySG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd building_wood_krusty.png
+Ni 1.00
+newmtl mesh_cannon_fdSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd cannon_fd.png
+Ni 1.00
+newmtl mesh_chest_treasure_revSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd chest_treasure_rev.png
+Ni 1.00
+newmtl mesh_cruiseshiprustSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd cruiseshiprust.png
+Ni 1.00
+newmtl mesh_cruiseshipwindow01SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd cruiseshipwindow01.png
+Ni 1.00
+newmtl mesh_db_gumdrop_greenSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd db_gumdrop_green.png
+Ni 1.00
+newmtl mesh_dumpster2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd dumpster2.png
+Ni 1.00
+newmtl mesh_dutch_groundSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd dutch_ground.png
+Ni 1.00
+newmtl mesh_dutch_groundgraySG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd dutch_groundgray.png
+Ni 1.00
+newmtl mesh_electrical_pole_singleSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd electrical_pole_single.png
+Ni 1.00
+newmtl mesh_fountainSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd fountain.png
+Ni 1.00
+newmtl mesh_gold_statueSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd gold_statue.png
+Ni 1.00
+newmtl mesh_grassSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd grass.png
+Ni 1.00
+newmtl mesh_grass_edge_ver2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd grass_edge_ver2.png
+Ni 1.00
+newmtl mesh_ground_cobble_ver2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd ground_cobble_ver2.png
+Ni 1.00
+newmtl mesh_ground_day2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd ground_day2.png
+Ni 1.00
+newmtl mesh_ground_day3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd ground_day3.png
+Ni 1.00
+newmtl mesh_ground_day3_edgeSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd ground_day3_edge.png
+Ni 1.00
+newmtl mesh_ground_daySG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd ground_day.png
+Ni 1.00
+newmtl mesh_ground_street_alpha_ltSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd ground_street_alpha_lt.png
+Ni 1.00
+newmtl mesh_ground_street_ltSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd ground_street_lt.png
+Ni 1.00
+newmtl mesh_gy_beamSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd gy_beam.png
+Ni 1.00
+newmtl mesh_gy_lava_greenSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd gy_lava_green.png
+Ni 1.00
+newmtl mesh_gy_lodtexturesSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd gy_lodtextures.png
+Ni 1.00
+newmtl mesh_gy_planksASG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd gy_planksA.png
+Ni 1.00
+newmtl mesh_gy_rock_wall_glow_darkerSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd gy_rock_wall_glow_darker.png
+Ni 1.00
+newmtl mesh_gy_rock_wall_green_darkerSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd gy_rock_wall_green_darker.png
+Ni 1.00
+newmtl mesh_hb01_shadow_KKSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd hb01_shadow_KK.png
+Ni 1.00
+newmtl mesh_hb01_shadow_mesaSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd hb01_shadow_mesa.png
+Ni 1.00
+newmtl mesh_house_patrick_rockSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd house_patrick_rock.png
+Ni 1.00
+newmtl mesh_house_patrick_rockSG3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd house_patrick_rock.png
+Ni 1.00
+newmtl mesh_house_sb_flowers01SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd house_sb_flowers01.png
+Ni 1.00
+newmtl mesh_house_sb_flowers02SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd house_sb_flowers02.png
+Ni 1.00
+newmtl mesh_jf_sky_colorSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd jf_sky_color.png
+Ni 1.00
+newmtl mesh_jf_sky_flowersSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd jf_sky_flowers.png
+Ni 1.00
+newmtl mesh_kelp_forest_sign01SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd kelp_forest_sign01.png
+Ni 1.00
+newmtl mesh_kelp_platformSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd kelp_platform.png
+Ni 1.00
+newmtl mesh_kelp_platform_topSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd kelp_platform_top.png
+Ni 1.00
+newmtl mesh_kf_lodtextures_fringesSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd kf_lodtextures_fringes.png
+Ni 1.00
+newmtl mesh_krustycrabdorSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd krustycrabdor.png
+Ni 1.00
+newmtl mesh_krustycrabflgSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd krustycrabflg.png
+Ni 1.00
+newmtl mesh_krustycrabsng1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd krustycrabsng1.png
+Ni 1.00
+newmtl mesh_krustycrabsng2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd krustycrabsng2.png
+Ni 1.00
+newmtl mesh_krustycrabwd5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd krustycrabwd5.png
+Ni 1.00
+newmtl mesh_krustycrabwin2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd krustycrabwin2.png
+Ni 1.00
+newmtl mesh_krustycrabwin3SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd krustycrabwin3.png
+Ni 1.00
+newmtl mesh_krustycrabwin4SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd krustycrabwin4.png
+Ni 1.00
+newmtl mesh_krustycrabwinSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd krustycrabwin.png
+Ni 1.00
+newmtl mesh_krustygill02SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd krustygill02.png
+Ni 1.00
+newmtl mesh_krustykrab_netSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd krustykrab_net.png
+Ni 1.00
+newmtl mesh_lagoon_waterSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd lagoon_water.png
+Ni 1.00
+newmtl mesh_leaf_pineappleSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd leaf_pineapple.png
+Ni 1.00
+newmtl mesh_lift_seashellSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd lift_seashell.png
+Ni 1.00
+newmtl mesh_light_street_revSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd light_street_rev.png
+Ni 1.00
+newmtl mesh_long_shadowsSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd long_shadows.png
+Ni 1.00
+newmtl mesh_object_door_blue02SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd object_door_blue02.png
+Ni 1.00
+newmtl mesh_object_door_blueSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd object_door_blue.png
+Ni 1.00
+newmtl mesh_path_grass_jffldsSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd path_grass_jfflds.png
+Ni 1.00
+newmtl mesh_pattern_tiki_purpleSG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd pattern_tiki_purple.png
+Ni 1.00
+newmtl mesh_plant_flower_whiteSG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd plant_flower_white.png
+Ni 1.00
+newmtl mesh_porthole_big_3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd porthole_big_3.png
+Ni 1.00
+newmtl mesh_rb_ground_aqua_transSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd rb_ground_aqua_trans.png
+Ni 1.00
+newmtl mesh_robot_headquartersSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd robot_headquarters.png
+Ni 1.00
+newmtl mesh_rock_glSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd rock_gl.png
+Ni 1.00
+newmtl mesh_rock_purpleSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd rock_purple.png
+Ni 1.00
+newmtl mesh_rock_purple_ver2SG5
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd rock_purple_ver2.png
+Ni 1.00
+newmtl mesh_rock_purple_ver3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd rock_purple_ver3.png
+Ni 1.00
+newmtl mesh_rock_sand_mtn_purpleSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd rock_sand_mtn_purple.png
+Ni 1.00
+newmtl mesh_roof_straw_fringe_ver2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd roof_straw_fringe_ver2.png
+Ni 1.00
+newmtl mesh_roof_straw_ver2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd roof_straw_ver2.png
+Ni 1.00
+newmtl mesh_ropeSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd rope.png
+Ni 1.00
+newmtl mesh_sand_glSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sand_gl.png
+Ni 1.00
+newmtl mesh_sand_jfflds_wetSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sand_jfflds_wet.png
+Ni 1.00
+newmtl mesh_sand_patrick_1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sand_patrick_1.png
+Ni 1.00
+newmtl mesh_sandydomeSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sandydome.png
+Ni 1.00
+newmtl mesh_sign_bb_backSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_bb_back.png
+Ni 1.00
+newmtl mesh_sign_bikini_btmSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_bikini_btm.png
+Ni 1.00
+newmtl mesh_sign_exit_jfSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_exit_jf.png
+Ni 1.00
+newmtl mesh_sign_exit_sm01SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_exit_sm01.png
+Ni 1.00
+newmtl mesh_sign_f_d_graveyardSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_f_d_graveyard.png
+Ni 1.00
+newmtl mesh_sign_glSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_gl.png
+Ni 1.00
+newmtl mesh_sign_hub_smSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_hub_sm.png
+Ni 1.00
+newmtl mesh_sign_jellyfishSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_jellyfish.png
+Ni 1.00
+newmtl mesh_sign_jellyfish_fieldsSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_jellyfish_fields.png
+Ni 1.00
+newmtl mesh_sign_movieSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_movie.png
+Ni 1.00
+newmtl mesh_sign_police_stationSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_police_station.png
+Ni 1.00
+newmtl mesh_sign_rockbottomSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_rockbottom.png
+Ni 1.00
+newmtl mesh_sign_shadyshoalsSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_shadyshoals.png
+Ni 1.00
+newmtl mesh_sign_taxiSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sign_taxi.png
+Ni 1.00
+newmtl mesh_surface_chumSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd surface_chum.png
+Ni 1.00
+newmtl mesh_surface_house_spongebob2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd surface_house_spongebob2.png
+Ni 1.00
+newmtl mesh_surface_house_squidwardSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd surface_house_squidward.png
+Ni 1.00
+newmtl mesh_surface_wood_lightSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd surface_wood_light.png
+Ni 1.00
+newmtl mesh_toll_boothSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd toll_booth.png
+Ni 1.00
+newmtl mesh_toll_gateSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd toll_gate.png
+Ni 1.00
+newmtl mesh_toll_gate_armSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd toll_gate_arm.png
+Ni 1.00
+newmtl mesh_toll_paint_bucketSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd toll_paint_bucket.png
+Ni 1.00
+newmtl mesh_toll_paint_strokeSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd toll_paint_stroke.png
+Ni 1.00
+newmtl mesh_treebarkSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd treebark.png
+Ni 1.00
+newmtl mesh_treeleavealfSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd treeleavealf.png
+Ni 1.00
+newmtl mesh_treeleavesSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd treeleaves.png
+Ni 1.00
+newmtl mesh_tube_house10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd tube_house10.png
+Ni 1.00
+newmtl mesh_tube_houseSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd tube_house.png
+Ni 1.00
+newmtl mesh_tube_house_BSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd tube_house_B.png
+Ni 1.00
+newmtl mesh_waterSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd water.png
+Ni 1.00
+newmtl mesh_wood_bridgeSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd wood_bridge.png
+Ni 1.00
+newmtl mesh_wood_dutch05SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd wood_dutch05.png
+Ni 1.00
+newmtl mesh_wood_pounded_pillarSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd wood_pounded_pillar.png
+Ni 1.00
+newmtl mesh_wood_pounded_pillar_edgeSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd wood_pounded_pillar_edge.png
+Ni 1.00
+newmtl mesh_wood_purpleSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd wood_purple.png
+Ni 1.00
