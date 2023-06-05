@@ -3596,8 +3596,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterState: 0
-  minStateTime: 2
-  maxStateTime: 4
+  minStateTime: 3
+  maxStateTime: 6
   walkSpeed: 0.125
 --- !u!1 &919132147838186879
 GameObject:
@@ -3650,8 +3650,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterState: 0
-  minStateTime: 2
-  maxStateTime: 4
+  minStateTime: 3
+  maxStateTime: 6
   walkSpeed: 0.1
 --- !u!1 &919132148610092111
 GameObject:
@@ -3704,8 +3704,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterState: 0
-  minStateTime: 2
-  maxStateTime: 4
+  minStateTime: 3
+  maxStateTime: 6
   walkSpeed: 0.125
 --- !u!1 &919132149290842495
 GameObject:
