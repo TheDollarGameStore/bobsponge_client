@@ -6,6 +6,7 @@ using UnityEngine.Networking;
 using UnityEngine.UI;
 using TMPro;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class ScenarioManager : MonoBehaviour
 {
@@ -42,6 +43,14 @@ public class ScenarioManager : MonoBehaviour
     void Start()
     {
         Invoke("LoadStory", 2f);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
     void LoadStory()

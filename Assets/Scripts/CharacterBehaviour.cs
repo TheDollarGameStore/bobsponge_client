@@ -27,6 +27,8 @@ public class CharacterBehaviour : MonoBehaviour
     [SerializeField] private Vector2 xLimits;
     [SerializeField] private Vector2 zLimits;
 
+    [SerializeField] private Vector3 defaultLookLocation;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -100,7 +102,7 @@ public class CharacterBehaviour : MonoBehaviour
         }
         else if (characterState == CharacterState.TALKING)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(Vector3.zero - transform.position, Vector3.up), 10f * Time.deltaTime);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(defaultLookLocation - transform.position, Vector3.up), 10f * Time.deltaTime);
         }
         else if (characterState == CharacterState.IDLING)
         {

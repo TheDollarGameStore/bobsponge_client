@@ -3749,6 +3749,7 @@ MonoBehaviour:
   talking: 0
   xLimits: {x: 5, y: 6}
   zLimits: {x: -2.75, y: -1.5}
+  defaultLookLocation: {x: 5.521, y: 0, z: -2.198}
 --- !u!1 &919132147838186879
 GameObject:
   m_ObjectHideFlags: 0
@@ -3807,6 +3808,7 @@ MonoBehaviour:
   talking: 0
   xLimits: {x: 5, y: 6}
   zLimits: {x: -2.75, y: -1.5}
+  defaultLookLocation: {x: 5.521, y: 0, z: -2.198}
 --- !u!1 &919132148610092111
 GameObject:
   m_ObjectHideFlags: 0
@@ -3865,6 +3867,7 @@ MonoBehaviour:
   talking: 0
   xLimits: {x: 5, y: 6}
   zLimits: {x: -2.75, y: -1.5}
+  defaultLookLocation: {x: 5.521, y: 0, z: -2.198}
 --- !u!1 &919132149290842495
 GameObject:
   m_ObjectHideFlags: 0
