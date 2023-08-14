@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 using TMPro;
+using System.IO;
 
 public class ScenarioManager : MonoBehaviour
 {
@@ -25,6 +26,17 @@ public class ScenarioManager : MonoBehaviour
     [SerializeField] private CharacterBehaviour spongebob;
     [SerializeField] private CharacterBehaviour patrick;
     [SerializeField] private CharacterBehaviour squidward;
+
+    [HideInInspector] public Transform cameraTarget;
+
+    [SerializeField] private DynamicCamera dynamicCamera;
+
+    public static ScenarioManager instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -59,14 +71,51 @@ public class ScenarioManager : MonoBehaviour
 
         subtitles.text = story.scenario[scenarioProgress].character + ": " + story.scenario[scenarioProgress].text;
 
-        switch (story.scenario[scenarioProgress].character)
+        CharacterBehaviour cbTarget = GetCameraTarget(story.scenario[scenarioProgress].character);
+        cameraTarget = cbTarget != null ? cbTarget.gameObject.transform : null;
+
+        if (Random.Range(0, 2) == 0)
         {
-            //TODO change animations and states of characters here
+            dynamicCamera.ChangeCamera();
         }
 
-
+        ToggleTalkAnimations(story.scenario[scenarioProgress].character);
         scenarioProgress++;
         Invoke("PlayScenario", audioClips[scenarioProgress - 1].length + 0.5f);
+    }
+
+    CharacterBehaviour GetCameraTarget(string character)
+    {
+        if (Random.Range(0, 1) == 0)
+        {
+            switch (character)
+            {
+                case "Spongebob":
+                    return spongebob;
+                case "Patrick":
+                    return patrick;
+                case "Squidward":
+                    return squidward;
+                default: return null;
+            }
+        }
+        return null;
+    }
+
+    void ToggleTalkAnimations(string character)
+    {
+        spongebob.ToggleTalk(character == "Spongebob");
+        patrick.ToggleTalk(character == "Patrick");
+        squidward.ToggleTalk(character == "Squidward");
+    }
+
+    public CharacterBehaviour GetTalkingCharacter()
+    {
+        if (spongebob.talking) return spongebob;
+        if (patrick.talking) return patrick;
+        if (squidward.talking) return squidward;
+
+        return null;
     }
 
 

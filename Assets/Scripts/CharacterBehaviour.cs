@@ -11,7 +11,7 @@ public enum CharacterState
 
 public class CharacterBehaviour : MonoBehaviour
 {
-    private Animator animator;
+    [SerializeField] private Animator animator;
 
     [HideInInspector] public CharacterState characterState;
 
@@ -20,18 +20,51 @@ public class CharacterBehaviour : MonoBehaviour
 
     [SerializeField] private float walkSpeed;
 
+    [HideInInspector] public bool talking = false;
+
     private Vector2 destination;
+
+    [SerializeField] private Vector2 xLimits;
+    [SerializeField] private Vector2 zLimits;
 
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
         Invoke("ChangeState", Random.Range(minStateTime, maxStateTime));
+    }
+
+    public void ToggleTalk(bool talking)
+    {
+        if (this.talking && !talking)
+        {
+            characterState = CharacterState.IDLING;
+            Invoke("ChangeState", Random.Range(minStateTime, maxStateTime));
+            animator.SetBool("walking", false);
+            animator.SetBool("idling", true);
+            animator.SetBool("talking", false);
+        }
+
+        this.talking = talking;
+
+        if (this.talking)
+        {
+            characterState = CharacterState.TALKING;
+
+            animator.SetBool("walking", false);
+            animator.SetBool("idling", false);
+            animator.SetBool("talking", true);
+            CancelInvoke("ChangeState");
+        }
     }
 
     // Update is called once per frame
     void ChangeState()
     {
+        if (talking)
+        {
+            return;
+        }
+
         if (characterState == CharacterState.IDLING)
         {
             characterState = CharacterState.WALKING;
@@ -39,7 +72,8 @@ public class CharacterBehaviour : MonoBehaviour
             animator.SetBool("idling", false);
             animator.SetBool("talking", false);
 
-            destination = new Vector2(Random.Range(5.15f, 6.15f), Random.Range(-1.4f, -2.5f));
+            destination = new Vector2(Random.Range(xLimits.x, xLimits.y), Random.Range(zLimits.x, zLimits.y));
+            Invoke("ChangeState", Random.Range(minStateTime, maxStateTime));
         }
         else if (characterState == CharacterState.WALKING)
         {
@@ -47,9 +81,8 @@ public class CharacterBehaviour : MonoBehaviour
             animator.SetBool("walking", false);
             animator.SetBool("idling", true);
             animator.SetBool("talking", false);
+            Invoke("ChangeState", Random.Range(minStateTime * 2, maxStateTime * 2));
         }
-
-        Invoke("ChangeState", Random.Range(minStateTime, maxStateTime));
     }
 
     private void Update()
@@ -63,6 +96,19 @@ public class CharacterBehaviour : MonoBehaviour
             {
                 CancelInvoke("ChangeState");
                 ChangeState();
+            }
+        }
+        else if (characterState == CharacterState.TALKING)
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(Vector3.zero - transform.position, Vector3.up), 10f * Time.deltaTime);
+        }
+        else if (characterState == CharacterState.IDLING)
+        {
+            CharacterBehaviour cbTarget = ScenarioManager.instance.GetTalkingCharacter();
+
+            if (cbTarget != null)
+            {
+                transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(cbTarget.gameObject.transform.position - transform.position, Vector3.up), 10f * Time.deltaTime);
             }
         }
     }
