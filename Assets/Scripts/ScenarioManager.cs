@@ -97,13 +97,13 @@ public class ScenarioManager : MonoBehaviour
     {
         if (Random.Range(0, 1) == 0)
         {
-            switch (character)
+            switch (character.ToLower())
             {
-                case "Spongebob":
+                case "spongebob":
                     return spongebob;
-                case "Patrick":
+                case "patrick":
                     return patrick;
-                case "Squidward":
+                case "squidward":
                     return squidward;
                 default: return null;
             }
